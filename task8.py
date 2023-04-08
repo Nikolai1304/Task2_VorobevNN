@@ -5,9 +5,9 @@
 # 3 2 4 -> yes
 # 3 2 1 -> no
 
-m = int(input("Ведите размер m:  "))
-n = int(input("Ведите размер n:  "))
-k = int(input("Ведите количество долек k:  "))
+m = int (input("Ведите размер m:  "))
+n = int (input("Ведите размер n:  "))
+k = int (input("Ведите количество долек k:  "))
 if k == m or k == n or k%n ==0 or k%m ==0:
     print ("Можно разломать по линии")
 else:
